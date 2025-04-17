@@ -1,10 +1,14 @@
-# python variables?
-- A variable in python is a named memory location used to store data.
-- it acts as a reference to an objet in memory and allows you to manipulate values without directly with memory addressses.
-## variable rules?
+# python introduction?
+- python was inroduced and developed by guido van rossum year of 1980
+- python is tnterpreted language
+# python features?
+- open source
+- wide range
+- interpreter language
+- object oriented programing language
+# history of python?
 
+# download and install python?
+- Go to chrome type download python select python.org and download it
 
-
-
-# python data types?
 
