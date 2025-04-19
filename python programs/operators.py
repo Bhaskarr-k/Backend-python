@@ -14,7 +14,9 @@
 # print(a is not b)
 
 
-x=[10,12,34]
-y=x
-print(x in y)
-print(x not in y)
+# x=[10,12,34]
+# y=x
+# print(x in y)
+# print(x not in y)
+
+
