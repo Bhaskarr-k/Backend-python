@@ -1,5 +1,6 @@
 # python introduction?
-- python is a popular programing langauge 
+- python is a popular programing langauge
+- pythn is object oriented programing language 
 - python was inroduced and developed by guido van rossum year of 1991
 - python is tnterpreted language
 - it is used for:
