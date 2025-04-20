@@ -35,6 +35,12 @@
 - remove method will not return any value where as pop() returns remove method
 - providing  argument is mandatorey in remove method where as in pop it is mandatorey
 
+# Nested list in python?
+- a list can contain any sort object, even another list which is turn can contain sublists themselves, and so on this is known as lsit
+- you can use them to arrange data into hierarchical structures
+- ex:  my list=['a','b','c',['d','e','f'],'g','h']
+
+
 
 
 

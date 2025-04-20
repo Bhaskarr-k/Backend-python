@@ -83,29 +83,56 @@
 
 
 
-name1=input("what is your name?")
-name2=input("what is his/her name?")
-combine_string=name1+name2
-lower_case_string=combine_string.lower()
+# name1=input("what is your name?")
+# name2=input("what is his/her name?")
+# combine_string=name1+name2
+# lower_case_string=combine_string.lower()
 
-t=lower_case_string.count('t')
-r=lower_case_string.count('r')
-u=lower_case_string.count('u')
-e=lower_case_string.count('e')
-true=t +r + u+e
+# t=lower_case_string.count('t')
+# r=lower_case_string.count('r')
+# u=lower_case_string.count('u')
+# e=lower_case_string.count('e')
+# true=t +r + u+e
 
 
-l=lower_case_string.count('l')
-o=lower_case_string.count('o')
-v=lower_case_string.count('v')
-e=lower_case_string.count('e')
-love=l+o+v+e
-love_score=int(str(true) + str(love))
+# l=lower_case_string.count('l')
+# o=lower_case_string.count('o')
+# v=lower_case_string.count('v')
+# e=lower_case_string.count('e')
+# love=l+o+v+e
+# love_score=int(str(true) + str(love))
 
-if love_score < 10 or love_score >90:
-    print(f"your score is {love_score} and you go to togehter like coke and mentos")
+# if love_score < 10 or love_score >90:
+#     print(f"your score is {love_score} and you go to togehter like coke and mentos")
 
-elif love_score>=40 and love_score<=50:
-    print(f"your score is {love_score} and you are alright together ")
-else:
-    print(f"your love score is {love_score}")
+# elif love_score>=40 and love_score<=50:
+#     print(f"your score is {love_score} and you are alright together ")
+# else:
+#     print(f"your love score is {love_score}")
+
+
+
+# text="welcome to bhaskar"
+# splited_text=text.split("a")
+# print(splited_text)
+
+# import random
+# name=input("enter everybody name seperated by comma:")
+# names_list=name.split(",")
+# length=len(names_list)
+# random_choice=random.randint(0,length-1)
+# print(f"{names_list[random_choice]} will pay the bill")
+
+
+
+row1=[1,1,1]
+row2=[1,1,1]
+row3=[1,1,1]
+matrix=[row1,row2,row3]
+print(f"{row1}\n{row2}\n{row3}")
+position=input("enter the position where you want to hide money:")
+row_number=int(position[0])
+column_number=position[1]
+row_selected=matrix[row_number-1]
+row_selected[column_number-1]='X'
+print(f"{row1}\n{row2}\n{row3}")
